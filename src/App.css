@@ -1,38 +1,49 @@
-.App {
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body{ 
+  background-image: url('https://img.freepik.com/free-photo/3d-gym-equipment_23-2151114163.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height:100vh;
+}
+
+main{
+  font-family: Arial, Helvetica, sans-serif;
   text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
   display: flex;
-  flex-direction: column;
+  flex-direction:column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
+  background-color: #ffff;
+  width: 90vw;
+  max-width: 500px;
+  margin: 0 auto;
+  margin-top: 50px;
+  padding-bottom: 20px;
 
-.App-link {
-  color: #61dafb;
 }
+h1{
+  background-color: #1b1096;
+  color: #ffff;
+  width: 100%;
+  margin-bottom:10px ;
+  font-size: 2rem;
+  padding:  20px 10px;
+}
+.input-section{
+  width: 60%;
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+}
+.output{
+  padding: 10px 5px;
+  border-radius: 9999px;
+  background-color:#1b1096;
+  margin-top: 10px;
+  color: #ffff;
+}
+.output-section{
+  margin-top: 20px;
 }
